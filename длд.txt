@@ -6,3 +6,11 @@ if operation == "+":
     result = num1 + num2
 elif operation == "-":
     result = num1 * num2
+elif operation =="*":
+    result = num1 * num2
+elif operation == "/":
+    result = num1 / num2
+else:
+
+    print("Верная операция!")
+print("Результат:",result)
